@@ -86,6 +86,12 @@ No need to restart tmux after making changes.
 
 ---
 
+# Status bar toggle
+| Shortcut | Action                    |
+| -------- | --------------------------|
+| `\ b`    | status bar enable/disable |
+
+---
 # 🖱️ Mouse Support
 
 Mouse support is enabled.
