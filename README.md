@@ -21,6 +21,70 @@ A clean and minimal **tmux** configuration focused on productivity. No plugins, 
 * 🔄 Instant configuration reload
 
 ---
+## Installing `fzf`
+
+### Debian / Ubuntu / Kali
+
+```bash
+sudo apt update
+sudo apt install -y fzf
+```
+
+### Arch Linux / Manjaro / EndeavourOS
+
+```bash
+sudo pacman -S fzf
+```
+
+### Fedora
+
+```bash
+sudo dnf install fzf
+```
+
+### RHEL / CentOS (EPEL)
+
+```bash
+sudo dnf install epel-release
+sudo dnf install fzf
+```
+
+### openSUSE
+
+```bash
+sudo zypper install fzf
+```
+
+### Alpine Linux
+
+```bash
+sudo apk add fzf
+```
+
+### Void Linux
+
+```bash
+sudo xbps-install -S fzf
+```
+
+### Gentoo
+
+```bash
+sudo emerge --ask app-shells/fzf
+```
+
+### NixOS
+
+```bash
+nix-env -iA nixpkgs.fzf
+```
+
+### Verify Installation
+
+```bash
+fzf --version
+```
+---
 
 # ⌨️ Keybindings
 
@@ -92,6 +156,11 @@ No need to restart tmux after making changes.
 | `\ b`    | status bar enable/disable |
 
 ---
+# Popup window
+| Shortcut | Action                            |
+| -------- | ----------------------------------|
+| `\ Space`| open default shell on popup window|
+|`\ w`     | show window list on popup window  |
 # 🖱️ Mouse Support
 
 Mouse support is enabled.
